@@ -33,7 +33,6 @@
   const agregarPelicula = (event) => {
     event.preventDefault();
     if (selectedPelicula) {
-      // Buscar la película en el array y actualizarla
       peliculas = peliculas.map(pelicula =>
         pelicula === selectedPelicula
           ? {
